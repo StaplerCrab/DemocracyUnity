@@ -8,6 +8,7 @@ public class ReportGenerator : MonoBehaviour
    public void GenerateReport ()
    {
 	   SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+	   //Debug.Log(JsonDataManager.MakeQuery("ASAS", "ASAS","ASAS","ASAS"));
    }
 
 }
